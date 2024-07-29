@@ -88,10 +88,13 @@ p {
 }
 @media (max-width: 700px) {
   h1 {
-    font-size: 18px;
+    font-size: 24px;
     text-align: center;
   }
-
+h2{ font-size: 18px;
+    text-align: center;}
+    h3{ font-size: 16px;
+    text-align: center;}
   .footer {
     display: none;
   }
@@ -103,5 +106,19 @@ p {
   }
   #weather-img {
     display: none;
+  }
+  .primary-link a {
+    marging: 5px;
+    text: 10px;
+    padding: 10px 5px;
+    text-transform: none;
+  }
+  .primary-link {
+    marging: 5px;
+    text: 5px;
+    padding: 10px 5px;
+    text-transform: none;
+    text-size-adjust: 5px;
+    text
   }
 }
